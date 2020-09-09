@@ -1,0 +1,26 @@
+name: PowerMethod
+channels:
+  - conda-forge
+dependencies:
+  - python
+  #
+  # Computation
+  - numpy
+  - scipy
+  - tensorflow-gpu
+  #
+  # Visualisation
+  - matplotlib
+  - seaborn
+  - altair
+  #
+  # Interactive
+  - jupyter
+  #
+  # Development
+  - pytest
+  - pip
+  - pip:
+    - pynvim
+    - pytest-rng
+    - -e .
